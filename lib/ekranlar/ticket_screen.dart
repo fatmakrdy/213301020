@@ -36,6 +36,8 @@ class TicketScreen extends StatelessWidget {
               child: TicketView(ticket: ticketList[0], isColor: true),
             ),
             Container(
+              width: MediaQuery.of(context).size.width,
+              height: MediaQuery.of(context).size.height*0.40,
               padding: EdgeInsets.symmetric(horizontal: 15),
               margin: EdgeInsets.symmetric(horizontal: 15),
               color: Colors.white,
@@ -81,12 +83,13 @@ class TicketScreen extends StatelessWidget {
                   Gap(30),
 
                   Row(
+
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      Image.asset("assets/images/visa.jpg",scale: 15,),
+                      Image.asset("assets/images/visa.jpg",scale: 14,),
 
                       Text(" *** 24652",style: Styles.textStyle,),
-                      Gap(134),
+                      Gap(137),
                       Text("\$250",style: Styles.textStyle,),
                     ],
                   ),
