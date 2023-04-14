@@ -79,12 +79,14 @@ class TicketScreen extends StatelessWidget {
                     ],
                   ),
                   Gap(30),
+
                   Row(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      Image.asset("assets/images/visa.jpg",scale: 14,),
+                      Image.asset("assets/images/visa.jpg",scale: 15,),
+
                       Text(" *** 24652",style: Styles.textStyle,),
-                      Gap(137),
+                      Gap(134),
                       Text("\$250",style: Styles.textStyle,),
                     ],
                   ),
