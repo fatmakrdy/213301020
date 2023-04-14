@@ -56,7 +56,7 @@ class _WelcomePageState extends State<WelcomePage> {
                           ),
                         ),
                         SizedBox(
-                          height: 20,
+                          height: 400,
                         ),
                         Center(
                           child: IconButton(
@@ -68,9 +68,9 @@ class _WelcomePageState extends State<WelcomePage> {
                             },
                             icon: Icon(
                               Icons.double_arrow,
-                              size: 50,
+                              size: 60,
                             ),
-                            color: Colors.blueGrey,
+                            color: Colors.black54,
                           ),
                         )
                       ],
